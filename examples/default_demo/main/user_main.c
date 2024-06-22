@@ -73,7 +73,8 @@ void app_main()
 
 	/* register a callback as an example to how you can integrate your code with the wifi manager */
 	wifi_manager_set_callback(WM_EVENT_STA_GOT_IP, &cb_connection_ok);
-
+#if CONFIG_SOC_CPU_CORES_NUM > 1
 	/* your code should go here. Here we simply create a task on core 2 that monitors free heap memory */
 	xTaskCreatePinnedToCore(&monitoring_task, "monitoring_task", 2048, NULL, 1, NULL, 1);
+#endif
 }
