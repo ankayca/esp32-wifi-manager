@@ -63,6 +63,7 @@ wifi_manager/.project
 sdkconfig
 sdkconfig.old
 **/build/
+**/managed_components/
 #doxygen
 Doxyfile
 wifi_manager/doc/
