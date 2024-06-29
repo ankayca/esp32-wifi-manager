@@ -1,0 +1,9 @@
+dependencies:
+  idf:
+    version: '>=4.2'
+description: esp32-wifi-manager is a pure C esp-idf component for ESP32 that enables
+  easy management of wifi networks through a web portal.
+license: MIT
+repository: https://github.com/ankayca/esp32-wifi-manager/tree/update_build_system
+url: https://github.com/ankayca/esp32-wifi-manager/tree/update_build_system
+version: 0.0.3

@@ -1,0 +1,5 @@
+branch: update_build_system
+description: esp32-wifi-manager
+license: MIT
+url: https://github.com/ankayca/esp32-wifi-manager/tree/update_build_system
+version: 0.0.1
